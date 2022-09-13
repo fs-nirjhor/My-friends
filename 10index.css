@@ -1,0 +1,54 @@
+body{background:#a7d7e3;
+    text-align: center; }
+  
+     h1{text-shadow:5px 3px 5px red;}
+     /*text-align (position in line) could be- center, left, right & justify*/
+     /* text-shadow: ১ম px=down, ২য় px= left ৩য় px= deep */
+   
+/*line height (space between two line) could be- 3,5px,8pt,300%,3cm*/
+ul{font: bold 100% monospace,Arial,"Times new Roman",Times,Serif,sans-serif;
+color:rgb(69,3,178); 
+line-height:2;
+   list-style-type: square
+   }
+   strong,h1,h3{letter-spacing:3px;
+   color: purple;
+      display: block; }
+/*{font: style variant weight size family;}*/
+ 
+/*letter-spacing = space between two letters*/
+     /*ltr=left to right & rtl= right to left*/
+a:link {color: blue;}
+a:visited {color: yellow;}
+a:hover {color:blue; background:lightgreen}
+a:active {color:red; background: lightblue;}
+input:focus{background:yellow;}
+h4{font-family: cursive;
+background: navy; 
+color: white;
+font-size:large;
+position:fixed;
+left:2px;
+top:50%;}
+.contact{
+   border: medium dashed blue;
+   outline: blue dashed medium;
+   background-color:lightyellow;
+   width:100%;
+   word-spacing:20px;
+   line-height:10px;}
+      /* CSS for original page starting after contact page*/
+   #rabby,#toraj{border: thin solid blue;
+   outline: blue dotted medium;
+   border-radius:30px;
+   
+   background-color:lightyellow;
+      font-size: large;
+      width:50%;
+     float:left;
+   }
+   div,img,p,strong {margin:10px 0px 10px 0px;}
+ footer,header
+{background: lightpink;
+      margin:0px; }
+      a{text-decoration:none;}
