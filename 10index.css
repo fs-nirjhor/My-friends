@@ -1,9 +1,12 @@
-body{background:#a7d7e3;
-    text-align: center; }
+body{background:lightcyan;
+    text-align: center; 
+}
   
-     h1{text-shadow:5px 3px 5px red;}
+     h1,h2{ margin: 10px;
+     padding: 10px;
+          text-shadow:5px 3px 5px red;}
      /*text-align (position in line) could be- center, left, right & justify*/
-     /* text-shadow: ১ম px=down, ২য় px= left ৩য় px= deep */
+    /*text-shadow: X Y Deep Color;*/
    
 /*line height (space between two line) could be- 3,5px,8pt,300%,3cm*/
 ul{font: bold 100% monospace,Arial,"Times new Roman",Times,Serif,sans-serif;
@@ -11,7 +14,7 @@ color:rgb(69,3,178);
 line-height:2;
    list-style-type: square
    }
-   strong,h1,h3{letter-spacing:3px;
+   strong,h1,h2,h3{letter-spacing:3px;
    color: purple;
       display: block; }
 /*{font: style variant weight size family;}*/
@@ -31,24 +34,32 @@ position:fixed;
 left:2px;
 top:50%;}
 .contact{
-   border: medium dashed blue;
+   
    outline: blue dashed medium;
    background-color:lightyellow;
    width:100%;
    word-spacing:20px;
    line-height:10px;}
       /* CSS for original page starting after contact page*/
-   #rabby,#toraj{border: thin solid blue;
-   outline: blue dotted medium;
-   border-radius:30px;
-   
-   background-color:lightyellow;
+    .boys,.girls{ display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+    }
+   .details{ 
+      border: 2px solid lightcyan;
+      margin-bottom: 10px;
+     border-radius:30px;
+   background-color:lightblue;
       font-size: large;
-      width:50%;
-     float:left;
-   }
-   div,img,p,strong {margin:10px 0px 10px 0px;}
- footer,header
-{background: lightpink;
-      margin:0px; }
+      width: 48%;
+    /* min-width: 33.33%;
+      max-width: 50%; */
+    }
+   img,p,strong {margin:10px 0 10px 0;}
       a{text-decoration:none;}
+footer{text-align: center;
+background: grey;
+color: white;
+margin: 0;
+padding:1px;
+}
